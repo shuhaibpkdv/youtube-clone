@@ -11,10 +11,43 @@
     rel="stylesheet">
 
   <!--linking css file-->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/video.css">
 </head>
 
 <body>
+
+  <!--navbar section-->
+
+  <div class="header">
+    <div class="left-section">
+      <img class="toggle-icon" src="images/hamburger-menu.svg" alt="toggle-button">
+      <img class="logo" src="images/youtube-logo.svg" alt="logo">
+    </div>
+
+    <div class="middle-section">
+      <input class="search-box" type="text" placeholder="Search">
+      <button class="search-icon-button">
+        <img src="images/search.svg" alt="search-icon">
+      </button>
+      <button class="voice-icon-button">
+        <img src="images/voice-search-icon.svg" alt="voice-icon">
+      </button>
+    </div>
+
+    <div class="right-section">
+      <img class="upload-icon" src="images/upload.svg" alt="">
+      <img class="apps-icon" src="images/youtube-apps.svg" alt="">
+      <img class="notification-icon" src="images/notifications.svg" alt="">
+      <img class="my-channel-icon" src="images/my-channel.jpeg" alt="">
+    </div>
+  </div>
+
+  <!--/navbar section-->
+
+  <!--video section-->
+
   <div class="video-grid">
     <div class="video-preview">
       <div>
@@ -123,7 +156,7 @@
         </div>
 
         <div class="video-info">
-          <p class="video-title">           
+          <p class="video-title">
             CS Dojo
           </p>
           <p class="video-author">
@@ -160,6 +193,8 @@
       </div>
     </div>
   </div>
+
+  <!--/video section-->
 
 </body>
 

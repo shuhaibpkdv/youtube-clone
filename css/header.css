@@ -1,0 +1,110 @@
+.header {
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid rgb(222, 222, 222);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.left-section {
+  width: 200px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.toggle-icon {
+  width: 30px;
+  margin: 0px 24px 0px 24px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 110px;
+  cursor: pointer;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 60px;
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-box {
+  height: 45px;
+  width: 0px;
+  flex: 1;
+  border: 1px solid rgb(204, 204, 204);
+  padding-left: 10px;
+}
+
+.search-box:focus {
+  outline: none;
+  border: 1px solid rgb(31, 92, 198);
+}
+
+.search-box::placeholder {
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.search-icon-button {
+  height: 49px;
+  padding: 7px 23px;
+  border: 1px solid rgb(204, 204, 204);
+  cursor: pointer;
+}
+
+.search-icon-button img {
+  width: 30px;
+}
+
+.voice-icon-button {
+  height: 45px;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.voice-icon-button img {
+  width: 30px;
+}
+
+.right-section {
+  width: 235px;
+  margin-right: 24px;
+  margin-left: 29px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-icon {
+  width: 30px;
+}
+
+.apps-icon {
+  width: 30px;
+}
+
+.notification-icon {
+  width: 30px;
+}
+
+.my-channel-icon {
+  height: 40px;
+  border-radius: 100px;
+}
