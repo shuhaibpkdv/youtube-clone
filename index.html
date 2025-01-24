@@ -13,6 +13,7 @@
   <!--linking css file-->
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/sidebar.css">
   <link rel="stylesheet" href="css/video.css">
 </head>
 
@@ -30,6 +31,7 @@
       <input class="search-box" type="text" placeholder="Search">
       <button class="search-icon-button">
         <img src="images/search.svg" alt="search-icon">
+        <div class="tooltip">Search</div>
       </button>
       <button class="voice-icon-button">
         <img src="images/voice-search-icon.svg" alt="voice-icon">
@@ -39,19 +41,54 @@
     <div class="right-section">
       <img class="upload-icon" src="images/upload.svg" alt="">
       <img class="apps-icon" src="images/youtube-apps.svg" alt="">
-      <img class="notification-icon" src="images/notifications.svg" alt="">
+      <div class="notification-icon-container">
+        <img class="notification-icon" src="images/notifications.svg" alt="">
+        <div class="notification-count">3</div>
+      </div>
       <img class="my-channel-icon" src="images/my-channel.jpeg" alt="">
     </div>
   </div>
 
   <!--/navbar section-->
 
+  <!--sidebar section-->
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="images/home.svg" alt="home-icon">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/explore.svg" alt="explore-icon">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/subscriptions.svg" alt="subscriptions-icon">
+      <div>subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/originals.svg" alt="originals-icon">
+      <div>originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/youtube-music.svg" alt="youtube-music-icon">
+      <div>youtube music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="images/library.svg" alt="library-icon">
+      <div>Library</div>
+    </div>
+  </div>
+
+  <!--/sidebar section-->
+
   <!--video section-->
 
   <div class="video-grid">
     <div class="video-preview">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="images/thumbnail-1.webp" alt="">
+        <div class="video-time">14:20</div>
       </div>
 
       <div class="video-info-grid">
