@@ -120,14 +120,17 @@
 
 .upload-icon {
   width: 30px;
+  cursor: pointer;
 }
 
 .apps-icon {
   width: 30px;
+  cursor: pointer;
 }
 
 .notification-icon-container {
   position: relative;
+  cursor: pointer;
 }
 
 .notification-icon {
@@ -149,6 +152,7 @@
 .my-channel-icon {
   height: 40px;
   border-radius: 100px;
+  cursor: pointer;
 }
 
 /* For smartphone & tablet */
