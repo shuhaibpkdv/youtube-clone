@@ -3,10 +3,17 @@ body {
   margin: 0;
   padding-top: 80px;
   padding-left: 100px;
-  padding-bottom: 1000px;
 }
 
 * {
   margin: 0;
   font-family: Roboto, Arial, sans-serif;
+}
+
+/* For smartphone and tablet */
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 80px;
+    padding-left: 10px;
+  }
 }

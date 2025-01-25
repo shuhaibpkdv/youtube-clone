@@ -150,3 +150,98 @@
   height: 40px;
   border-radius: 100px;
 }
+
+/* For smartphone & tablet */
+@media screen and (max-width: 768px) {
+  .header {
+    height: 55px;
+  }
+
+  .left-section {
+    width: 180px;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .toggle-icon {
+    width: 25px;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    width: 75px;
+    cursor: pointer;
+  }
+
+  .middle-section {
+    flex: 1;
+    margin-left: 0px;
+    max-width: 145px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .search-box {
+    display: none;
+  }
+
+  .search-icon-button {
+    background-color: transparent;
+    height: 35px;
+    width: 45px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+  
+    position: relative;
+  }
+
+  .search-icon-button img {
+    width: 25px;
+  }
+
+  .voice-icon-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+
+  .voice-icon-button img {
+    width: 25px;
+  }
+
+  .right-section {
+    width: 150px;
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+  
+  .upload-icon {
+    width: 25px;
+  }
+  
+  .apps-icon {
+    width: 25px;
+  }
+  
+  .notification-icon {
+    width: 25px;
+  }
+  
+  .notification-count {
+    padding: 1px 4px;
+    top: -1px;
+  }
+  
+  .my-channel-icon {
+    height: 25px;
+    border-radius: 100px;
+  }
+  
+}

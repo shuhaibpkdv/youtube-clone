@@ -59,3 +59,44 @@
 .video-stats {
   margin-top: 4px;
 }
+
+
+/* For smartphone */
+@media screen and (max-width: 426px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+}
+
+/* For tablet */
+@media screen and (min-width: 426px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+}
+
+/* For small laptop */
+@media screen and (min-width: 769px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+}
+
+/* For big laptop */
+@media screen and (min-width: 1024px) {
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }
+}

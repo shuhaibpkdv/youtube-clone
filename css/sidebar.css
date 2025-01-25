@@ -1,7 +1,7 @@
 .sidebar {
   background-color: white;
   width: 90px;
-  
+
   position: fixed;
   top: 70px;
   left: 0px;
@@ -31,4 +31,11 @@
 .sidebar-link div {
   font-family: Roboto, Arial;
   font-size: 13px;
+}
+
+/* For smartphone & tablet */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
